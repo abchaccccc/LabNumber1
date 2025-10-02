@@ -26,10 +26,14 @@ public class Main {
                         count++;
                     }
                 } else { // Если не хватает третьему
-                    count++;
+                    if (X>0) {
+                        count++;
+                    }
                 }
             } else { // Если не хватает второму
-                count++;
+                if (X>0) {
+                    count++;
+                }
             }
         } else { // Если не хватает первому
             if (X>0) {
